@@ -1,4 +1,4 @@
-mfataman.github.io
+http://mfataman.github.io
 ==================
 
-First Project
+Portfolio website
