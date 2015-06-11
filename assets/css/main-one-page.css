@@ -78,6 +78,8 @@ hr {
   width: 100px;
   margin-bottom: 15px;
 }
+
+
 @media screen and (max-width: 768px) {
   .wrapper > footer .container {
     padding: 30px 15px;
@@ -308,7 +310,7 @@ hr {
 
 .slick-list.dragging {
   cursor: pointer;
-  cursor: hand;
+  cursor: auto;
 }
 
 .slick-slider .slick-track {
@@ -4740,7 +4742,7 @@ ul.sidebar-nav ul.submenu li:first-child a {
 /* ----------------------------------------------------- */
 /* general portfolio item with hovered caption */
 .portfolio-item {
-  position: relative;
+  position: relative;  
 }
 .portfolio-item .overlay {
   width: 100%;
@@ -4920,7 +4922,7 @@ ul.sidebar-nav ul.submenu li:first-child a {
   padding: 0;
 }
 .portfolio-item-list li {
-  padding: 0;
+  padding: 10px;
   overflow: hidden;
 }
 .portfolio-item-list li img {
