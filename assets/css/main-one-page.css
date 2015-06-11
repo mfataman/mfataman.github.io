@@ -310,7 +310,7 @@ hr {
 
 .slick-list.dragging {
   cursor: pointer;
-  cursor: hand;
+  cursor: auto;
 }
 
 .slick-slider .slick-track {
