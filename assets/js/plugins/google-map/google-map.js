@@ -141,7 +141,7 @@
 
 	function codeAddress(theMap) {
 	
-		var address = "Google Ontario, 555 Annapolis Court, Waterloo, ON, CA";
+		var address = "Google Ontario, Waterloo, ON, CA";
 		geocoder.geocode( { 'address': address}, function(results, status) {
 			if (status == google.maps.GeocoderStatus.OK) {
 				theMap.setCenter(results[0].geometry.location);
